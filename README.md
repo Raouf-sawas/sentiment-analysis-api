@@ -4,7 +4,7 @@
 ![Top language](https://img.shields.io/github/languages/top/Raouf-sawas/sentiment-analysis-api?style=for-the-badge)
 ![Code size](https://img.shields.io/github/languages/code-size/Raouf-sawas/sentiment-analysis-api?style=for-the-badge)
 [![Last commit](https://img.shields.io/github/last-commit/Raouf-sawas/sentiment-analysis-api?style=for-the-badge)](https://github.com/Raouf-sawas/sentiment-analysis-api/commits/master)
-[![License](https://img.shields.io/github/license/aouf-sawas/sentiment-analysis-api?style=for-the-badge)](https://github.com/Raouf-sawas/sentiment-analysis-api/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/RodolfoFerro/docker-flask-api?style=for-the-badge)](https://github.com/Raouf-sawas/sentiment-analysis-api/blob/master/LICENSE)
 
 
 
@@ -75,14 +75,14 @@ $ docker-compose up
 2. In a new terminal window, use HTTPie to make a GET request at the URL of the API.
 
 ```bash
-http http://127.0.0.1:5000/ query=="That was pretty entertaining"
+http http://127.0.0.1:5000/ query=="the wether is good"
 ```
 ## or
 
 in the web browser
 
 ```bash
-http://127.0.0.1:5000/?query=="That was pretty entertaining"
+http://127.0.0.1:5000/?query=="the wether is good"
 ```
 
 
