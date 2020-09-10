@@ -1,4 +1,4 @@
-# Docker Flask sentiment analysis API  🐳
+# Sentiment Analysis and Model Deployment using Flask and Docker 🐳
 
 <!-- Shields -->
 ![Top language](https://img.shields.io/github/languages/top/Raouf-sawas/sentiment-analysis-api)
@@ -59,7 +59,7 @@ cd /home/sentiment-model/models
 To run run the API imag with docker-compuse:
 
 ```bash
-$ cd docker-compose-API
+$ cd docker-compose-api
 $ docker-compose up
 ```
 To run the trainning imag with docker-compuse:
@@ -93,13 +93,14 @@ http://127.0.0.1:5000/?query=="the wether is good"
 HTTP/1.0 200 OK
 Content-Length: 57
 Content-Type: application/json
-Date: Tue, 21 Aug 2018 19:04:04 GMT
-Server: Werkzeug/0.14.1 Python/3.6.3
+Date: Thu, 10 Sep 2020 14:07:53 GMT
+Server: Werkzeug/1.0.1 Python/3.8.5
 
 {
-    "confidence": 0.78,
+    "confidence": 0.81,
     "prediction": "Positive"
 }
+
 ```
 
 
@@ -111,7 +112,7 @@ Thanks to the following people who have contributed to this project:
 
 ## Resources
 
-flask api code: https://github.com/schwarsi/flask-rest-setup
+flask api (sentiment-clf) code: https://github.com/schwarsi/flask-rest-setup
 
 ## Contact
 
