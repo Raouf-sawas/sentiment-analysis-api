@@ -5,6 +5,7 @@
 ![Code size](https://img.shields.io/github/languages/code-size/Raouf-sawas/sentiment-analysis-api?style=for-the-badge)
 [![Last commit](https://img.shields.io/github/last-commit/Raouf-sawas/sentiment-analysis-api?style=for-the-badge)](https://github.com/Raouf-sawas/sentiment-analysis-api/commits/master)
 [![License](https://img.shields.io/github/license/Raouf-sawas/sentiment-analysis-api?style=for-the-badge)](https://github.com/Raouf-sawas/sentiment-analysis-api/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/RodolfoFerro/docker-flask-api?style=for-the-badge)]
 
 
 <!-- Project description -->
@@ -13,10 +14,9 @@ This repository aims to be an easy to extend template for building a Python API 
 
 ## Prerequisities
 
-Before you begin, ensure you have met the following requirements:
+Before you begin, ensure you have met the following requirement:
 
-#### For only-Docker usage:
-* You have a _Windows/Linux/Mac_ machine with the latest version of [Docker](https://www.docker.com/) installed.
+* You have machine with the latest version of [Docker](https://www.docker.com/) installed.
 
 
 
