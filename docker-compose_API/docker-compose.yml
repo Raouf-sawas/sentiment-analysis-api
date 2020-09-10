@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  sentiment_analysis_api:
+    image: sentiment_analysis_api 
+    ports:
+      - "5000:5000"
+    volumes:
+      - /home/sentiment-clf/lib/models:/sentiment-clf/lib/models
+

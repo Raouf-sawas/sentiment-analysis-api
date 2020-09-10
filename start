@@ -1,0 +1,7 @@
+if [ -z ${train_model+x} ];
+then
+	python app.py
+else
+    python build_model.py
+fi
+
