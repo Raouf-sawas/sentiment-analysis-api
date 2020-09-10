@@ -9,7 +9,7 @@
 
 
 <!-- Project description -->
-This repository aims to be an easy to extend template for building a Python API using Flask and running it with Docker.
+This repository aims to be an easy to dockerize sentiment analysis api and train models.
 
 
 ## Prerequisities
@@ -109,6 +109,9 @@ Thanks to the following people who have contributed to this project:
 
 * @Raouf 📖💻 -->
 
+## Resources
+
+flask api code: https://github.com/schwarsi/flask-rest-setup
 
 ## Contact
 
