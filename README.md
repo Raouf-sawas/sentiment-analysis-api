@@ -4,7 +4,7 @@
 ![Top language](https://img.shields.io/github/languages/top/Raouf-sawas/sentiment-analysis-api?style=for-the-badge)
 ![Code size](https://img.shields.io/github/languages/code-size/Raouf-sawas/sentiment-analysis-api?style=for-the-badge)
 [![Last commit](https://img.shields.io/github/last-commit/Raouf-sawas/sentiment-analysis-api?style=for-the-badge)](https://github.com/Raouf-sawas/sentiment-analysis-api/commits/master)
-[![License](https://img.shields.io/github/License-MIT/Raouf-sawas/sentiment-analysis-api?style=for-the-badge)](https://github.com/Raouf-sawas/sentiment-analysis-api/blob/master/LICENSE)
+[![License](https://img.shields.io/github/License-MIT-green.svg/Raouf-sawas/sentiment-analysis-api?style=for-the-badge)](https://github.com/Raouf-sawas/sentiment-analysis-api/blob/master/LICENSE)
 
 
 
