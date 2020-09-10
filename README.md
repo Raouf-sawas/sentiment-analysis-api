@@ -1,9 +1,9 @@
 # Docker Flask sentiment analysis API  🐳
 
 <!-- Shields -->
-![Top language](https://img.shields.io/github/languages/top/Raouf-sawas/sentiment-analysis-api?style=for-the-badge)
-![Code size](https://img.shields.io/github/languages/code-size/Raouf-sawas/sentiment-analysis-api?style=for-the-badge)
-[![Last commit](https://img.shields.io/github/last-commit/Raouf-sawas/sentiment-analysis-api?style=for-the-badge)](https://github.com/Raouf-sawas/sentiment-analysis-api/commits/master)
+![Top language](https://img.shields.io/github/languages/top/Raouf-sawas/sentiment-analysis-api)
+![Code size](https://img.shields.io/github/languages/code-size/Raouf-sawas/sentiment-analysis-api)
+[![Last commit](https://img.shields.io/github/last-commit/Raouf-sawas/sentiment-analysis-api)](https://github.com/Raouf-sawas/sentiment-analysis-api/commits/master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Raouf-sawas/sentiment-analysis-api/blob/master/LICENSE)
 
 
