@@ -39,10 +39,6 @@ To run the Docker image, run the following:
 ```bash
 $ docker run -p 5000:5000 -it sentiment-analysis-api
 ```
-TO train the model run 
-```bash
-$ docker run -p 5000:5000 -e train_model="true" -it sentiment-analysis-api
-```
 
 Now you should be able to test the API at <http://localhost:5000/>.
 
@@ -50,6 +46,60 @@ To stop the Docker container:
 ```bash
 $ docker ps
 $ docker stop <container-id>
+```
+To train the model, run the following: 
+```bash
+$ docker run -p 5000:5000 -e train_model="true" -it sentiment-analysis-api
+```
+you should be able to see the trained model on the follwoing directory 
+```bash
+cd /home/sentiment-model/models
+```
+
+To run run the API imag with docker-compuse:
+
+```bash
+$ cd docker-compose-API
+$ docker-compose up
+```
+To run run the trainning imag with docker-compuse:
+
+```bash
+$ cd docker-compose-trinning
+$ docker-compose up
+```
+
+## Testing the API
+1. After you run the sentiment-analysis-api image 
+
+2. In a new terminal window, use HTTPie to make a GET request at the URL of the API.
+
+```bash
+http http://127.0.0.1:5000/ query=="That was pretty entertaining"
+```
+## or
+
+in the web browser
+
+```bash
+http://127.0.0.1:5000/?query=="That was pretty entertaining"
+```
+
+
+
+3. Example of successful output.
+
+```bash
+HTTP/1.0 200 OK
+Content-Length: 57
+Content-Type: application/json
+Date: Tue, 21 Aug 2018 19:04:04 GMT
+Server: Werkzeug/0.14.1 Python/3.6.3
+
+{
+    "confidence": 0.78,
+    "prediction": "Positive"
+}
 ```
 
 
